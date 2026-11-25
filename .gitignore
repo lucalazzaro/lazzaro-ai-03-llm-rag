@@ -1,0 +1,18 @@
+# Uso personale
+datapulse_rag_spiegazione.md.docx
+
+# Tracce del corso (materiale ProfessionAI)
+Sistema RAG*.docx
+
+# Ambiente Python / Jupyter
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+# Dati locali e indici vettoriali
+dati/
+data/
+chroma_db/
+*.csv
+*.json
