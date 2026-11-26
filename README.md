@@ -1,9 +1,9 @@
 # DataPulse — RAG Knowledge Base (LLM)
 
-> Progetto sviluppato nell'ambito del Master in AI Solution Architecture
-> (ProfessionAI) — modulo LLM. Caso di studio a fini didattici.
+> Project developed as part of the Master in AI Solution Architecture
+> (ProfessionAI) — LLM module. Educational case study.
 
-## Descrizione
+## Description
 A Retrieval-Augmented Generation (RAG) backend that lets employees of
 DataPulse S.p.A., a fictional fintech software company, query internal
 documentation in natural language. Documents such as compliance policies,
@@ -20,14 +20,14 @@ with source citations.
 - Google Gemini (optional, for embeddings/generation)
 - transformers (`google/flan-t5-base`), RAGAS (evaluation)
 
-## Skill dimostrate
+## Demonstrated skills
 - Document ingestion with metadata (source, date, validity, type)
 - Token-based chunking
 - Hybrid retrieval (semantic + lexical) and filtering on document validity
 - Answer generation with source attribution and a simple confidence score
 - RAG evaluation with RAGAS
 
-## Come eseguire
+## How to run
 The retrieval and generation pipeline runs locally. The Gemini key is optional.
 
 ```bash
@@ -44,7 +44,7 @@ jupyter notebook "DataPulse S.p.A.ipynb"
 ```
 
 ## Note
-- Caso di studio a fini didattici. I dati, le aziende e i contatti citati nel
-  codice sono interamente fittizi.
+- Educational case study. All data, companies and contacts mentioned in the
+  code are entirely fictional.
 - `GEMINI_API_KEY` must be set as an environment variable. It is never stored in the code.
 - Models are downloaded from Hugging Face on first run.
